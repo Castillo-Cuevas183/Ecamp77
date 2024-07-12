@@ -1,0 +1,68 @@
+body{
+    background:#ebecca;
+    }
+
+h2{
+    color: darkgreen;
+}
+
+section{
+    background-image: url(../img/luciernagas.webp);
+}
+
+/* Fuente google */
+.arsenal-sc-regular {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.arsenal-sc-bold {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.arsenal-sc-regular-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.arsenal-sc-bold-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.fondo-con-patrones{
+    background-image: url(../img/fondo\ de\ patrones.avif);
+}
+
+/*Definición de fuentes*/
+.fuente_subtitulo{
+    color:#f2b90f;
+    font-size: 12px;
+}
+
+.fuente:título{
+    color:#d9910b
+}
+
+#contenedor{
+    background-image: url(../img/la\ malinche.jpeg) ;
+} 
+
+#contenedor h2{
+    color: #8aa1bf;
+}
+
+#contenedor h3{
+    color: #8c5f27;
+}
+#contenedor ul li{
+    color: #fff;
+}
+
+p{
+    color: antiquewhite;
+}
