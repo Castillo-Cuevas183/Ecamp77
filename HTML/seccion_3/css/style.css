@@ -1,0 +1,20 @@
+/* estilo con link*/
+header{
+    background:darkgreen;
+}
+
+section{
+    background:darkcyan;
+}
+
+h1{
+    color:whitesmoke;
+    font-size: 70px;
+}
+h2{
+    color:oldlace;
+}
+img{
+    width: 150px;
+}
+/* agregar dos secciones o mas, usar color tipo rgb, rgba , hsl  y hexadecimal
