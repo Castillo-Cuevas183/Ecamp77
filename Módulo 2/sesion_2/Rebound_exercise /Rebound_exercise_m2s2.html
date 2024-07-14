@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de hora médica</title>
+</head>
+<body>
+    <h1>Solicitud de hora médica</h1>
+    <form action="gracias.html" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="Especialidad">Especialidad</label>
+        <select  id="especialidad" name="Especialidades médicas"required>
+            <option value=""> Selecciona una especialidad médica</option>
+            <option value="Cardiología"> Cardiología</option>
+            <option value="Dermatología">Dermatología</option>
+            <option value="Gastroenterología">Gastroenterología</option>
+            <option value="Neurología">Neurología</option>
+            <option value="Pediatría">Pediatría</option>
+            <option value="Otra">Otra</option>
+        </select><br><br>
+
+        <label for="fecha">Fecha de atención</label> <br>
+        <input type="date" name="Fecha" id="Fecha" required><br><br>
+        
+        <label for="hora">Hora preferida:</label><br>
+        <input type="time" id="hora" name="hora" required><br><br>
+        
+    
+    <input type="button" value="Enviar">
+
+    </form>
+</body>
+</html>
