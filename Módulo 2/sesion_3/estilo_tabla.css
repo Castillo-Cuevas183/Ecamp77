@@ -1,0 +1,31 @@
+ /* Estilos para la tabla */
+ table {
+    width: auto; /* Ancho total de la tabla */
+    margin: 10px auto; /* Centrar la tabla en la página */
+  }
+
+  /* Estilos para las celdas */
+  td {
+    width: auto ; /* Ancho de las celdas */
+    height: auto; /* Alto de las celdas */
+    text-align: left; /* Texto a la izquierda */
+    padding: 1px; /* Espaciado interno de las celdas */
+  }
+
+
+  /* Colores de fondo según la imagen */
+  .rojo { background-color: #FF0000; }
+  .blanco {background-color: #f5f9f5;} 
+  .verde { background-color: #008000; }
+  .gris { background-color: #808080;}
+  .Café { background-color: #ac5050; }
+  .azul { background-color: #0000FF; }
+  .violeta{background-color: violet;}
+  .naranjo { background-color: #FFA500;}
+  .rosado{ background-color: pink;}
+  .turquesa {background-color: turquoise;}
+  .purpura{ background-color: purple;}
+  .amarillo { background-color: #FFFF00;}
+  .negro{ background-color: #000; color: #f5f9f5;}
+
+
