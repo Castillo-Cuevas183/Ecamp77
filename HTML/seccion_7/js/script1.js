@@ -1,5 +1,6 @@
 /*console.log("Hola desde la consolola JS");*/
 alert("bienvenidos a la calculadora básica");
+
 console.log("Bienvenidos a la Calculadora Básica");
 var a;
 var b;

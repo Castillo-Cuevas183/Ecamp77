@@ -48,11 +48,11 @@ function suma(a,b){
 }
 function resta(a,b){
     resultado = a-b;
-    return resultado
+    return resultado;
 }
 function multiplicacion(a,b){
     resultado = a*b;
-    return resultado
+    return resultado;
 }
 function division(a,b){
     if(a>b){

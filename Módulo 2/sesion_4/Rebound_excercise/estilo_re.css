@@ -6,9 +6,19 @@ body {
     flex-wrap: wrap;
 }
 
+
 div {
     width: 100%;
     height: 100px;
+}
+
+.row{
+    margin: 20px;
+}
+.col{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
 }
 
 /* Colores de las cajas */
@@ -23,19 +33,18 @@ div {
 
 /*Pantalla Extra small (<500px)*/
 @media(max-width:499px){
-    .col-xs-12{width: 100%;}
-    .col-xs-11{width: 91.66666667%;}
-    .col-xs-10{width: 83.33333334%;}
-    .col-xs-9{width: 75%;}
-    .col-xs-8{width: 66.66666667%;}
-    .col-xs-7{width: 58.33333334%;}
-    .col-xs-6{width: 50%;}
-    .col-xs-5{width: 41.66666667%;}
-    .col-xs-4{width: 33.33333334%;}
-    .col-xs-3{width: 25%;}
-    .col-xs-2{width: 16.66666667%;}
-    .col-xs-1{width: 8.33333333%;}
-
+    .xs-12{width: 100%;}
+    .xs-11{width: 91.66666667%;}
+    .xs-10{width: 83.33333334%;}
+    .xs-9{width: 75%;}
+    .xs-8{width: 66.66666667%;}
+    .xs-7{width: 58.33333334%;}
+    .xs-6{width: 50%;}
+    .xs-5{width: 41.66666667%;}
+    .xs-4{width: 33.33333334%;}
+    .xs-3{width: 25%;}
+    .xs-2{width: 16.66666667%;}
+    .xs-1{width: 8.33333333%;}
     .rojo, .morado {
         display: none;
     }
@@ -43,34 +52,34 @@ div {
 
 /*Pantalla LSmall (>=500px)*/
 @media(min-width:500px) and (max-width:750px){ 
-    .col-sm-12{width: 100%;}
-    .col-sm-11{width: 91.66666667%;} 
-    .col-sm-10{width: 83.33333334%;} 
+    .sm-12{width: 100%;}
+    .sm-11{width: 91.66666667%;} 
+    .sm-10{width: 83.33333334%;} 
     .col-sm-9{width: 75%;}
-    .col-sm-8{width: 66.66666667%;}
-    .col-sm-7{width: 58.33333334%;}
-    .col-sm-6{width: 50%;}
-    .col-sm-5{width: 41.66666667%;}
-    .col-sm-4{width: 33.33333334%;}
-    .col-sm-3{width: 25%;}
-    .col-sm-2{width: 16.66666667%;}
-    .col-sm-1{width: 8.33333333%;}
+    .sm-8{width: 66.66666667%;}
+    .sm-7{width: 58.33333334%;}
+    .sm-6{width: 50%;}
+    .sm-5{width: 41.66666667%;}
+    .sm-4{width: 33.33333334%;}
+    .sm-3{width: 25%;}
+    .sm-2{width: 16.66666667%;}
+    .sm-1{width: 8.33333333%;}
 }
 
 
 /*Pantalla Medium (>=751px)*/
 @media(min-width:751px) { 
-    .col-md-12{width: 100%;}
-    .col-md-11{width: 91.66666667%;} 
-    .col-md-10{width: 83.33333334%;} 
-    .col-md-9{width: 75%;}
-    .col-md-8{width: 66.66666667%;}
-    .col-md-7{width: 58.33333334%;}
-    .col-md-6{width: 50%;}
-    .col-md-5{width: 41.66666667%;}
-    .col-md-4{width: 33.33333334%;}
-    .col-md-3{width: 25%;}
-    .col-md-2{width: 16.66666667%;}
-    .col-md-1{width: 8.33333333%;}
+    .md-12{width: 100%;}
+    .md-11{width: 91.66666667%;} 
+    .md-10{width: 83.33333334%;} 
+    .md-9{width: 75%;}
+    .md-8{width: 66.66666667%;}
+    .md-7{width: 58.33333334%;}
+    .md-6{width: 50%;}
+    .md-5{width: 41.66666667%;}
+    .md-4{width: 33.33333334%;}
+    .md-3{width: 25%;}
+    .md-2{width: 16.66666667%;}
+    .md-1{width: 8.33333333%;}
 }
 
