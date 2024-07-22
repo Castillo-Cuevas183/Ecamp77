@@ -52,9 +52,9 @@ function calculoTotalConIva(quantity, price, iva) {
     return subtotal + (subtotal * iva);
 }
 
-        function calculateTotalConDescuentoeIva(quantity, price, discount, iva) {
-            const subtotal = calculateSubtotal(quantity, price);
-            const discountAmount = (subtotal * discount) / 100;
-            const discountedSubtotal = subtotal - discountAmount;
-            return discountedSubtotal + (discountedSubtotal * iva);
-        }
+function calculateTotalConDescuentoeIva(quantity, price, discount, iva) {
+    const subtotal = calculateSubtotal(quantity, price);
+    const discountAmount = (subtotal * discount) / 100;
+    const discountedSubtotal = subtotal - discountAmount;
+    return discountedSubtotal + (discountedSubtotal * iva);
+}

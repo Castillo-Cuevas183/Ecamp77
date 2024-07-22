@@ -1,0 +1,55 @@
+*,
+html,
+body {
+  font-size: verdana;
+}
+
+.logo-empresa {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bg-navbar {
+  background-color: #051b54;
+  color: white;
+}
+
+.bg-button {
+  background-color: #ffffff33;
+  color: white;
+}
+
+.bg-section {
+    background-color: #62dad3;
+    border:  solid #62dad3 ;
+    border-radius: 10px;
+}
+
+.promotion {
+    display: flex;
+    background-color: #62dad3;
+    justify-content: baseline;
+    height: 300px;
+    border:  solid #62dad3 ;
+    border-radius: 10px;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+.promotion div {
+    width: 60%;
+}
+
+.promotion img {
+    width: 40%;
+}
+
+
+.form-section {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.form-section label {
+    color: #051B54;
+}
