@@ -40,6 +40,8 @@
 
         // Función para manejar la opción seleccionada
         function manejarOpcion(opcion) {
+            const opcion = prompt("Seleccione una opción:\n1. Ver lista de alumnos\n2. Ver calificaciones de alumnos\n3. Calcular el promedio del grupo");
+    
             switch(opcion) {
                 case '1':
                     verListaAlumnos();
@@ -70,3 +72,5 @@
 
         // Iniciar el sistema
         iniciarSistema();
+
+
