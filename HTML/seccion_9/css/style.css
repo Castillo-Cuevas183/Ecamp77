@@ -1,0 +1,9 @@
+.resaltado{
+    color: red;
+    font-weight: bold;
+}
+
+.nuevo-elemento{
+    color: green;
+    font-size: 16px;
+}
