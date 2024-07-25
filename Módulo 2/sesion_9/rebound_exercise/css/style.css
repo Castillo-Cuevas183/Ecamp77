@@ -1,0 +1,44 @@
+#text1 {
+    background-color: rgb(186, 43, 226);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+#textop{
+    background-color: coral;
+
+}
+
+#text2{
+
+    border-radius: 5px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+#img {
+    transition: transform 0.1s ease;
+    transform-origin: left center; /* Centra el agrandamiento */
+}
+
+
+.enlarged {
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    transform: scale(2); /* Centra la imagen y la agranda al doble de su tamaño */
+
+}
+
+#caja3 p {
+    transition: font-size 0.1s ease;
+}
+
+#caja3 p.enlarged {
+    font-size: 2;
+    text-align: justify;
+}

@@ -7,14 +7,18 @@
     align-items: center;
     border: 1px solid #000;
     margin-bottom: 20px;
+    text-align: center; 
+    font-size: x-large;
+
 }
 
-text2{
-    width: 100px;
+#text2{
+    width: 200px;
     height: 50px;
     background-color: lightcoral;
     color: white;
     text-align: center;
     line-height: 50px;
 }
+
 

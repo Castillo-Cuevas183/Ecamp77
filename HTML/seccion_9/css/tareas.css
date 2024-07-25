@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+
+/* Desafío: Crear una Lista Interactiva de Tareas
+
+Objetivo:
+Construir una aplicación web simple que permita a los usuarios agregar, eliminar y tareas en una lista de tareas.
+
+Requisitos:
+HTML:
+
+Un campo de entrada para agregar nuevas tareas.
+Un botón para añadir la tarea a la lista.
+Una lista (ul o ol) donde se mostrarán las tareas.
+CSS:
+
+Opcional: estilizar la lista de tareas para que sea más atractiva visualmente.
+JavaScript:
+
+Agregar una nueva tarea a la lista cuando el usuario haga clic en el botón "Agregar".
+Marcar una tarea como completada (tachada) cuando el usuario haga clic sobre ella.(opcional)
+Eliminar una tarea de la lista cuando el usuario haga clic en un botón "Eliminar" junto a cada tarea. */

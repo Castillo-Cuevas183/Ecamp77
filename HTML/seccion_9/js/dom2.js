@@ -7,11 +7,11 @@ function ocultarText() {
     text2.style.display = "none";
 }
 
-function mostrarText() {
+function mostrarTexto() {
     text2.style.display = "block";
 }
 
 area.onmouseout = ocultarText;
-area.onmouseover = mostrarText;
+area.onmouseover = mostrarTexto;
 
 
