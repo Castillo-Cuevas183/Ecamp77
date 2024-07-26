@@ -1,0 +1,18 @@
+.error{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.success{
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+#container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #32bc32;
+    border-radius: 5px;
+} 
