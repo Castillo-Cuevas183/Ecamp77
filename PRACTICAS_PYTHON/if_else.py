@@ -15,5 +15,12 @@ elif y < 20:
     print("y es mayor que 10 y es menor que 20")
 else:
     print("y es mayor que 20")
-
     
+
+edad=int(input("Ingrese su edad: "))
+if edad < 18:
+    print("Debe tener al menos 18 años para registrarse")
+elif 18<=edad<=120:
+    print("Registo existoso, Bienvenido")
+else:
+    print("Edad inválida. Por favor Ingresa una edad correcta")

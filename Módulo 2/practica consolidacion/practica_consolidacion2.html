@@ -3,52 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="pc2.css">
+    <title>Portafolio Personal</title>
 </head>
 <body>
 
-    <!-- Información Personal -->
-    <header class="bg-primary text-white text-center py-5">
-        <h1>Cristian Castillo C.</h1>
-        <p>Breve descripción sobre ti</p>
-    </header>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><b>/CCC/</b></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
 
-    <!-- Habilidades -->
-    <section id="skills" class="container py-5">
-        <h2 class="text-center">Mis Habilidades</h2>
-        <ul class="list-unstyled">
-            <li>Habilidad 1</li>
-            <li>Habilidad 2</li>
-            <li>Habilidad 3</li>
-        </ul>
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+
+    <div class="presentacion">
+        
+        <p class="bienvenida">Bienvenidos</p>
+        <h2>Soy <span>Cristian Castillo</span>, Ingeniero Civil Industrial </h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, </p>
+        <a href="#portfolio">Ir a Portafolio</a>
+    </div>
+</div>
+</section>
+
+<!-- SECCION II SOBRE MI -->
+<section id="sobremi">
+    <div class="contenedor-foto">
+        <img src="img/" alt="">
+    </div>
+    <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, Soy <span>Cristian Castillo</span> </h2>
+        <h3> Ingeniero Civil Industrial, Magíster en Innovación</h3>
+        <p></p>
+        <p></p>
+        <a href="#">Descargar CV</a>
+    </div>
+</section>
+<!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h2 class="titulo-seccion">SERVICIOS</h2>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Gestión de la Innovación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Metodología Canva</li>
+                    <li>Design Thinking</li>
+                   
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Planificación Estratégica</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Gestión de Procesos</li>
+                    <li>Planes de Acción</li>
+                    <li>Desarrollo de KPI</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Formulación de Proyectos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Desarrollo de proyectos</li>
+                    <li>Postulación a financiamiento</li>
+                    <li></li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+
     </section>
 
-    
-
-    <!-- Proyectos Realizados -->
-    <section id="projects" class="container py-5">
-        <h2 class="text-center">Proyectos Realizados</h2>
+<!-- Mis Proyectos -->
+    <section id="portfolio" class=" contendor-proyectos">
+        <h2 class="text-center">PORTAFOLIO</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <img src="img/GI.jpg" class="card-img-top" alt="Proyecto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Proyecto 1</h5>
-                        <p class="card-text">Descripción breve del proyecto 1.</p>
+                        <h5 class="card-title">Gestión de la Innovación</h5>
+                        <p class="card-text">Desarrollo de un proceso de innovación.</p>
                     </div>
                 </div>
             </div>
-            <!-- Añadir más proyectos según sea necesario -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/PE.png" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Planificación Estratégica</h5>
+                        <p class="card-text">Asesoría en Planeamiento estratégico.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/FP.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulación de proyectos</h5>
+                        <p class="card-text">Línea de Evaluación Privada y Social.</p>
+                    </div>
+                </div>
+            </div>
+<!-- Añadir más proyectos según sea necesario -->
         </div>
     </section>
 
     <!-- Formulario de Contacto -->
-    <section id="contact" class="container py-5">
+    <section id="contacto" class="container py-5">
         <h2 class="text-center">Contacto</h2>
-        <form id="contactForm">
-            <div class="form-group">
+        <form id="contactForm" method="get">
+            <div class="form-group fila mitad">
                 <label for="name">Nombre</label>
                 <input type="text" class="form-control" id="name" required>
             </div>
@@ -66,10 +162,10 @@
 
     <!-- Pie de Página -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Nombre del Profesional. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Cristian Castillo Cuevas.</p>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/pc2.js"></script>
 </body>
 </html>
