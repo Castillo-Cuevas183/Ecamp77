@@ -1,11 +1,10 @@
-$(document).ready(function() {
+  $(document).ready(function() {
     $(".text-body-secondary").click(function() {
-      var idBoton = $("#Rio").attr("id");
-      $("#detalles" + idBoton).toggle();
+        var idBoton = $(this).attr("id"); // Obtener el id del botón clickeado
+        $("#detalles" + idBoton).toggle(); // Mostrar u ocultar el contenedor correspondiente
     });
-
 
     $(".btn-close").click(function() {
-        $(".detalles").show();
+        $(this).closest(".detalles").hide(); // Ocultar solo el contenedor de detalles que está siendo cerrado
     });
-  });
+});
