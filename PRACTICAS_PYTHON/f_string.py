@@ -10,3 +10,7 @@ print(f"El total es: ${precio1 + precio2:.2f}" )
 #if dentro de un print
 temperatura = 30
 print(f"La temperatura es {"alta" if temperatura > 25 else "baja"}")
+
+#imprimir llaves dentro de un f-string
+print(f"Hola, mi nombre es {{'Roberto'}}")
+

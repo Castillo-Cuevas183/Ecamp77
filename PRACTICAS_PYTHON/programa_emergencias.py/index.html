@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reporte de Estado - Junta Nacional de Jardines Infantiles</title>
+</head>
+<body>
+<h1>Reporte de Estado</h1>
+<form action="/report" method="POST">
+<label for="code">Código del Establecimiento:</label><br>
+<input type="text" id="code" name="code" required><br><br>
+ 
+        <label for="status">Estado:</label><br>
+<select id="status" name="status" required>
+<option value="En Funcionamiento">En Funcionamiento</option>
+<option value="Sin Funcionamiento">Sin Funcionamiento</option>
+</select><br><br>
+ 
+        <input type="submit" value="Enviar Reporte">
+</form>
+</body>
+</html>
