@@ -37,7 +37,6 @@ producto2 = Producto("Mesa", 200, 30)
 #mostrar los datos  productos
 
 
-
 producto1 = Producto("Laptop",1500,10)
 producto2 = Producto("Mesa", 200, 30)
 
