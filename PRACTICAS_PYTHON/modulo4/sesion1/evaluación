@@ -1,0 +1,77 @@
+# Clase base Persona
+class Persona:
+    def __init__(self, id, nombre, apellido, edad):
+        self.id = id
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+
+    def presentarse(self):
+        print(f"Hola, soy {self.nombre} y tengo {self.edad} años.")
+
+# Clase Futbolista que hereda de Persona
+class Futbolista(Persona):
+    def __init__(self, id,nombre, apellido, edad, dorsal, demarcacion):
+        super().__init__(id, nombre, apellido, edad)
+        self.dorsal = dorsal
+        self.demarcacion = demarcacion
+
+    def concentrarce(self):
+        print(f"El Futbolista {self.nombre}, que juega como  {self.demarcacion} y usa el número {self.dorsal}, está entrenando.")
+
+    def vajar(self):
+        print(f"El futbolita {self.nombre} {self.apellido},  {self.edad}, viajará para jugar en la selección de su país")
+
+    def jugar_partido(self):
+        print(f"{self.nombre}, el número {self.numero}, está jugando un partido como {self.posicion}.")
+
+    def entrenar(self):
+        print(f"{self.nombre}, que juega como {self.posicion} y usa el número {self.numero}, está entrenando.")
+
+
+
+# Clase Entrenador que hereda de Persona
+class Entrenador(Persona):
+    def __init__(self, nombre, edad, experiencia):
+        super().__init__(nombre, edad)
+        self.experiencia = experiencia
+
+    def planificar_entrenamiento(self):
+        print(f"{self.nombre} está planificando el entrenamiento.")
+
+    def dirigir_partido(self):
+        print(f"{self.nombre} está dirigiendo el partido con {self.experiencia} años de experiencia.")
+
+# Clase Masajista que hereda de Persona
+class Masajista(Persona):
+    def __init__(self, nombre, edad, especialidad):
+        super().__init__(nombre, edad)
+        self.especialidad = especialidad
+
+    def dar_masaje(self):
+        print(f"{self.nombre}, especialista en {self.especialidad}, está dando un masaje.")
+
+    def entrenar(self):
+        print(f"{self.nombre}, que juega como {self.posicion} y usa el número {self.numero}, está entrenando.")
+
+
+# Creación de instancias
+futbolista = Futbolista(nombre="Lionel Messi", edad=36, posicion="Delantero", numero=10)
+entrenador = Entrenador(nombre="Pep Guardiola", edad=52, experiencia=15)
+masajista = Masajista(nombre="Carlos Pérez", edad=40, especialidad="Fisioterapia deportiva")
+
+# Uso de los métodos
+futbolista.presentarse()
+futbolista.entrenar()
+futbolista.jugar_partido()
+
+print("\n")
+
+entrenador.presentarse()
+entrenador.planificar_entrenamiento()
+entrenador.dirigir_partido()
+
+print("\n")
+
+masajista.presentarse()
+masajista.dar_masaje()

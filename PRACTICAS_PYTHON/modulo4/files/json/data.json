@@ -1,0 +1,12 @@
+{
+    "nombre": "Juan",
+    "edad": 30,
+    "correo": "juan@example.com",
+    "hobbies": ["leer", "fútbol", "programación"],
+    "trabajo": {
+        "empresa": "Tech Solutions",
+        "puesto": "Desarrollador",
+        "años": 5
+    }
+}
+
