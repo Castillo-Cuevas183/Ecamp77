@@ -1,0 +1,11 @@
+id_cheff,nombre,apellido,especialidad,años_experiencia,pais_origen,restaurante_actual,platos_firma,fecha_nacimiento,genero
+1,Carlos,Rivera,Cocina Mediterránea,15,España,La Mar,Paella Valenciana,1980-05-22,M
+2,Laura,Martínez,Cocina Molecular,10,Francia,El Celler,Esferificación de Aceitunas,1985-09-15,F
+3,Jorge,Gómez,Cocina Asiática,12,Japón,Nobu,Sushi Rolls,1983-12-05,M
+4,Ana,Pérez,Repostería,8,México,Pastelería Fina,Pastel de Tres Leches,1990-04-14,F
+5,David,Rodríguez,Cocina Fusión,14,España,Fusion,Ceviche Fusión,1977-11-22,M
+6,Sara,Sánchez,Cocina Tradicional,9,Italia,Casa Italia,Pasta a la Carbonara,1988-06-30,F
+7,Luis,Fernández,Cocina Vegana,7,Chile,GreenHouse,Ensalada Vegana,1992-09-12,M
+8,Isabel,García,Cocina Francesa,16,Francia,Le Gourmet,Soufflé,1981-08-28,F
+9,Miguel,Martín,Cocina Mexicana,11,México,Tacos y Más,Tacos al Pastor,1979-03-18,M
+10,Carmen,Lopez,Cocina Internacional,13,Argentina,Delicias,Parrillada Argentina,1986-01-10,F
